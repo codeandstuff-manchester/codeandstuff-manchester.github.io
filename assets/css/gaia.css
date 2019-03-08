@@ -210,7 +210,7 @@ a:hover {
 }
 
 .separator {
-  color: #c5a47e;
+  color: #ff13a7;
   margin: 0 auto 20px;
   max-width: 240px;
   text-align: center;
@@ -2835,9 +2835,8 @@ a.navbar-brand.overide {
     margin: 0;
   }
   .section-header .content h1 {
-    font-size: 4.5em;
-    letter-spacing: 0.07em;
-    line-height: 1.7;
+    font-size: 3.5em;
+    line-height: 1.4;
   }
   .section-header .content h1 span {
     font-size: 1em;
@@ -2848,6 +2847,9 @@ a.navbar-brand.overide {
   }
   .section-header .content .separator {
     width: 12em;
+  }
+  .section .title-area {
+    margin: 70px auto 30px;
   }
 
   .section-signin {
