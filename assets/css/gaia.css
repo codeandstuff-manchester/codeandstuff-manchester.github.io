@@ -3436,6 +3436,10 @@ body {
     display: none;
   }
 
+  a.navbar-brand.overide {
+    padding-left: 10px;
+  }
+
   .section-pricing [class*="col-"]:not(:first-child):not(:last-child) > .card:not(.card-black) {
     border-radius: 0;
   }
