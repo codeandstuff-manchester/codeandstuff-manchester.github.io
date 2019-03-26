@@ -114,6 +114,10 @@ p {
   margin: 0 0 .75em;
 }
 
+.spacing {
+  padding: 0 30px;
+}
+
 p,
 label,
 .btn,
