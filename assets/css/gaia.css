@@ -3497,6 +3497,10 @@ body {
     background-color: rgba(0, 0, 0, 0.45);
   }
 
+  .spacing {
+    padding: 30px 30px;
+}
+
   #bodyClick {
     right: 230px;
   }
