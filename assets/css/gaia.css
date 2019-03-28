@@ -255,6 +255,10 @@ p.description {
   color: #777777;
 }
 
+p.description a {
+  font-size: 16px;
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
