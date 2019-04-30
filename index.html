@@ -271,7 +271,16 @@
                     <div class="separator separator-brand">✻</div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row partner slider">
+                <div class="col-md-6 spacing">
+                    <div class="info-icon">
+                        <div>
+                            <img class="img-responsive" src="assets/img/innovate.png" alt="Innovate Her img">
+                        </div>
+                        <!--<h3 class="text-brand">Our Sponsor</h3>-->
+                        <p class="description"><a class="text-brand" href="https://www.innovateher.co.uk" target="_blank">Innovateher</a> is our delivery partner. We’re proud to be partnering with Innovateher and supporting their mission to get more <span class="text-brand">#girlsintech!</span></p>
+                    </div>
+                </div>
                 <div class="col-md-6 spacing">
                     <div class="info-icon">
                         <div>
@@ -516,7 +525,37 @@
     // settings: "unslick"
     // instead of a settings object
   ]
-});
+}),
+$(".partner").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+}
+);
     });
 </script>
 
